@@ -1,0 +1,15 @@
+FROM node:13.12.0-alpine
+
+WORKDIR /usr/dev/app
+
+COPY package.json ./
+
+RUN npm install
+
+ENV PORT_EXPOSE=3000
+
+COPY . .
+
+EXPOSE $PORT_EXPOSE
+
+RUN npm run dev
