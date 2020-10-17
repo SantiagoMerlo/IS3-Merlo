@@ -1,0 +1,25 @@
+version: 1.0.{build}
+build_script:
+- cmd: >-
+    java -version
+
+    docker info
+
+    dir
+
+    mvn clean package
+test_script:
+- sh: >-
+    $url = "https://ci.appveyor.com/api/testresults/junit/$($env:APPVEYOR_JOB_ID)"
+        $wc = New-Object 'System.Net.WebClient'
+        $dirs = Get-ChildItem -Filter surefire-reports -Recurse
+        ForEach ($dir in $dirs)
+        {
+          $files = Get-ChildItem -Path $dir.FullName -Filter TEST-*.xml
+          ForEach ($file in $files)
+          {
+            $wc.UploadFile($url, (Resolve-Path $file.FullName))
+          }
+        }
+artifacts:
+- path: .\target\*.jar
