@@ -7,5 +7,4 @@
 * [Trabajo Practico 5](https://i.pinimg.com/originals/0d/96/4e/0d964e0d6e6c9f34f0f4c46ec674ac97.jpg)
 * [Trabajo Practico 6](https://github.com/SantiagoMerlo/IS3-Merlo/blob/master/Trabajo-Practico-6/README.md)
 * [Trabajo Practico 7](https://github.com/SantiagoMerlo/IS3-Merlo/blob/master/Trabajo-Practico-7/README.md)
-* Trabajo Practico 8
-* Trabajo Practico 9
+* [Trabajo Practico 8](https://github.com/SantiagoMerlo/IS3-Merlo/blob/master/Trabajo-Practico-8/README.md)
