@@ -13,9 +13,9 @@
 ![alt text](https://github.com/SantiagoMerlo/IS3-Merlo/blob/master/Trabajo-Practico-6/images/1.png)
 * Compilacion del archivo dockerizado y como es de esperar, java no anda
 ![alt text](https://github.com/SantiagoMerlo/IS3-Merlo/blob/master/Trabajo-Practico-6/images/2.png)
-
+## 3 - Java
+* Por cuestion de comodidad para el trabajo practico numero 7, se creo un archivo realizando esta actividad. Link: https://github.com/SantiagoMerlo/spring-boot-is3
 ## 4 - Python Fask
-Salteandonos la parte de java.
 ![alt text](https://github.com/SantiagoMerlo/IS3-Merlo/blob/master/Trabajo-Practico-6/images/3.png)
 ### Que ocurrio en nuestro Dockerfile?
 `FROM python:3.6.3` # Se trajo la imagen de la version de python 3.6.3
