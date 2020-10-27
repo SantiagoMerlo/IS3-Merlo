@@ -36,7 +36,7 @@ pipeline {
 }
 ```
 ### Salida:
-![alt text](https://github.com/SantiagoMerlo/IS3-Merlo/blob/master/Trabajo-Practico-9/imagenes/1.png)
-![alt text](https://github.com/SantiagoMerlo/IS3-Merlo/blob/master/Trabajo-Practico-9/imagenes/2.png)
+![alt text](https://github.com/SantiagoMerlo/IS3-Merlo/blob/master/Trabajo-Practico-9/images/1.png)
+![alt text](https://github.com/SantiagoMerlo/IS3-Merlo/blob/master/Trabajo-Practico-9/images/2.png)
 
 
